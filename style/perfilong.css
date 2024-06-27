@@ -3,7 +3,7 @@
 }
 
 .login-main{
-    background-color: #161b22;
+    background: linear-gradient(to right, #707bff, #8224fe);
 
     text-align: center;
     padding-top: 7em;
@@ -12,7 +12,7 @@
 }
 
 .login-section{
-    background-color: #161b22;
+    background: linear-gradient(to right, #707bff, #8224fe);
     color:#000;
    
     width: 50%;
@@ -66,7 +66,7 @@
 }
 
 .profile {
-    background-color: #161b22;
+    background: linear-gradient(to right, #707bff, #8224fe);
 
     display: grid;
     align-items: center;
@@ -121,20 +121,18 @@ table {
 
 
 .title_item {
-    color:#707bff;
-    font-weight: bold;
     text-transform: uppercase;
     text-align: left;
     width: 30em;
     padding: 1em;
-
+    border-top: 1px solid #ffffffaf;
 }
 
 .info_item {
     width: 50em;
     padding: 1em;
     text-align: left;
-
+    border-top: 1px solid #ffffffaf;
     
 }
 

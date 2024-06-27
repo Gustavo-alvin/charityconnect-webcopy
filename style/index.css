@@ -10,7 +10,7 @@
 }
 
 .mainhome {
-    background-color: #161b22;;
+    background-color: var(--cinza-ainda-mais-escuro);
     padding: 5%;
 }
 
@@ -121,7 +121,7 @@
 }
 
 .onu {
-    background-color: rgba(21,0,48);
+    background-color: #150031;
 
     text-align: center;
     margin-top: 50px;
