@@ -1,5 +1,5 @@
 .background {
-  background: linear-gradient(to right, #707bff, #8224fe);
+  background-color: #161b22;
 }
 
 .sr-only {
@@ -15,19 +15,21 @@
   }
 
   .input-wrapper {
-    position: relative;
+
+
     padding-top: 5rem;
     padding-bottom: 1em;
-    margin-left: 14em;
+    text-align: center;
   }
   input {
 
     padding: 1rem 1.6rem;
     border-radius: .8rem;
-    background-color: #ffffff;
+    background-color: rgba(10,10,10,0.4);
     border: 0;
     width: 75%;
-    color: #000000;
+    color: #ffffff;
+    letter-spacing: 1px;
     font-size: 2rem;
     font-weight: bold;
   }
@@ -61,9 +63,8 @@
     color: white;
     gap: 1em;
     column-gap: 2em;
-    
     transition: all .2s;
-
+    text-align: s;
   }
 
   .item1 {
@@ -97,7 +98,7 @@
   
   li .saiba_mais {
     display: inline-block;
-    color: white;
+    color: #707bff;
     margin-top: 1.6rem;
     font-weight: bold;
     text-decoration: none;
@@ -134,7 +135,7 @@
     border: 1px solid transparent;
     border-radius: 12px;
     overflow: hidden;
-    background: #fff;
+    background-color: rgba(10,10,10,0.4);
     padding: 9px;
     cursor: text;
     width: 15em;
@@ -155,8 +156,7 @@
     border: 0 none;
     border-color: #fff;
     background: none;
-    color: #000000;
-    font-weight: bolder;
+    color: #fff;
   }
 
   #interestsSelect{
@@ -175,7 +175,7 @@
 
   .category-filter {
     display: grid;
-    grid-template-columns: auto auto auto  ;
+    grid-template-columns: auto auto   ;
     max-width: 55em;
     margin: 0 auto;
     align-items: center;
@@ -193,7 +193,7 @@
     border: 1px solid transparent;
     border-radius: 12px;
     overflow: hidden;
-    background: #fff;
+    background-color: rgba(10,10,10,0.4);
     padding: 9px;
     cursor: text;
     width: 15em;
@@ -214,8 +214,7 @@
     border: 0 none;
     border-color: #fff;
     background: none;
-    color: #000000;
-    font-weight: bolder;
+    color:#fff;
   }
 
   #interestsSelect-city{
@@ -246,6 +245,13 @@
     border: none;
     box-sizing: border-box;
   }
+
+.cards{
+  display: grid;
+  grid-template-columns: auto auto ;
+  justify-content: space-around;
+  margin-left: 5em;
+}
 
   @media screen and (max-width: 934px) {
     .input-wrapper {
@@ -279,4 +285,9 @@
       width: 90%;
       text-align: center;
     }
+  }
+
+  input::placeholder {
+    color: #ffffff;
+    font-weight: 400;
   }
